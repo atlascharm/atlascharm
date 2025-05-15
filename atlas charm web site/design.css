@@ -1,0 +1,126 @@
+
+/* Header Styles */
+header {
+    background-color: #333;
+    padding: 20px 0;
+}
+
+.logo-container img {
+    width: 100px;
+}
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1c1c1c;
+    color: white;
+    text-align: center;
+}
+
+/* Hero Section (Main Section) */
+.hero {
+    padding: 50px 20px;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+}
+
+.image-container {
+    width: 45%; /* 45% width for each image container */
+    text-align: center;
+}
+
+.left {
+    order: 1; /* Ensures the helicopter image is on the left */
+}
+
+.right {
+    order: 2; /* Ensures the other image is on the right */
+}
+
+#img {
+    width: 100%;
+    max-width: 300px; /* You can adjust the size as needed */
+    animation: rotateHelicopter 5s linear infinite;
+}
+
+#car-scent {
+    width: 100%;
+    max-width: 350px; /* Adjust size for the second image */
+}
+
+
+
+.product-info {
+    width: 45%;
+    color: white;
+    text-align: left;
+}
+
+.product-info h1 {
+    font-size: 2.5em;
+    margin-top: 20px;
+}
+
+.product-info h2 {
+    font-size: 1.8em;
+    color: #f4a261;
+}
+
+.product-info p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.price {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #e76f51;
+}
+
+.order-btn {
+    background-color: #f4a261;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.order-btn:hover {
+    background-color: #e76f51;
+}
+
+/* Product Description */
+.product-description {
+    background-color: #333;
+    padding: 20px;
+    text-align: left;
+}
+
+.product-description ul {
+    list-style: none;
+    font-size: 1.2em;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    padding: 15px;
+    color: #aaa;
+    font-size: 0.9em;
+}
